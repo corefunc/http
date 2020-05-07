@@ -115,7 +115,7 @@ httpResponseJson(500, { errorForDeveloper: "", errorForUser: "" });
 [buymeacoffee-img]: https://img.shields.io/badge/support-buymeacoffee-1E90FF.svg?&logo=buy-me-a-coffee&label=support
 [gh-stars-url]: https://github.com/corefunc/http
 [gh-stars-img]: https://badgen.net/github/stars/corefunc/http?&icon=github&label=stars&color=FFCC33
-[lgtm-url]: https://github.com/corefunc/http
+[lgtm-url]: https://lgtm.com/projects/g/corefunc/http
 [lgtm-img]: https://badgen.net/lgtm/grade/g/corefunc/http?&icon=lgtm&label=lgtm:js/ts&color=00C853
 [npm-version-url]: https://npmjs.com/package/@corefunc/http
 [npm-version-img]: https://badgen.net/npm/v/@corefunc/http?&icon=npm&label=npm&color=DD3636
