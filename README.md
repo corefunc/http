@@ -123,7 +123,7 @@ httpResponseJson(500, { errorForDeveloper: "", errorForUser: "" });
 [npm-downloads-img]: https://badgen.net/npm/dt/@corefunc/http?&icon=terminal&label=downloads&color=009688
 [releasly-url]: https://app.releasly.co/sites/corefunc/http?utm_source=github_badge
 [releasly-img]: https://app.releasly.co/assets/badges/badge-blue-classic.svg
-[travis-url]: https://lgtm.com/projects/g/corefunc/http/?mode=list
+[travis-url]: https://travis-ci.com/github/corefunc/http
 [travis-img]: https://badgen.net/travis/corefunc/http?&icon=travis&label=build
 [ts-url]: https://github.com/corefunc/http/blob/master/dist/http.d.ts
 [ts-img]: https://badgen.net/npm/types/@corefunc/http?&icon=typescript&label=types&color=1E90FF
