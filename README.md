@@ -127,11 +127,3 @@ httpResponseJson(500, { errorForDeveloper: "", errorForUser: "" });
 [travis-img]: https://badgen.net/travis/corefunc/http?&icon=travis&label=build
 [ts-url]: https://github.com/corefunc/http/blob/master/dist/http.d.ts
 [ts-img]: https://badgen.net/npm/types/@corefunc/http?&icon=typescript&label=types&color=1E90FF
-
-
-[![npm](https://badgen.net/npm/v/@corefunc/http?&icon=npm&label=npm&color=DD3636)](https://npmjs.com/package/@corefunc/http)
-[![downloads](https://badgen.net/npm/dt/@corefunc/http?&icon=terminal&label=downloads&color=009688)](https://npmjs.com/package/@corefunc/http)
-[![stars](https://badgen.net/github/stars/corefunc/http?&icon=github&label=stars&color=ffcc33)](https://github.com/corefunc/http)
-[![types](https://badgen.net/npm/types/corefunc/http?&icon=typescript&label=types&color=1E90FF)](https://github.com/corefunc/http/blob/master/dist/http.d.ts)
-[![build](https://badgen.net/travis/corefunc/http?&icon=travis&label=build)](https://travis-ci.org/corefunc/http)
-[![lgtm](https://badgen.net/lgtm/grade/g/corefunc/http?&icon=lgtm&label=lgtm:js/ts&color=00C853)](https://lgtm.com/projects/g/corefunc/http/alerts/)
