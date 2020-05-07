@@ -1,0 +1,75 @@
+{
+  "author": "Anton Trofimenko",
+  "bugs": {
+    "url": "https://github.com/corefunc/http/issues"
+  },
+  "contributors": [
+    {
+      "email": "r37r0m0d3l@protonmail.com",
+      "name": "Anton Trofimenko"
+    }
+  ],
+  "dependencies": {},
+  "description": "Utilities and tools to help build HTTP requests",
+  "devDependencies": {
+    "@r37r0m0d3l/rollup-config-pkg": "git+https://github.com/r37r0m0d3l/rollup-config-pkg.git",
+    "babel-eslint": "10.1.0",
+    "eslint": "6.8.0",
+    "eslint-config-prettier": "6.11.0",
+    "eslint-plugin-jsdoc": "24.0.6",
+    "eslint-plugin-prettier": "3.1.3",
+    "jest": "26.0.1",
+    "npm-check": "5.9.2",
+    "prettier": "2.0.5"
+  },
+  "engines": {
+    "node": ">=12.9.0"
+  },
+  "engineStrict": true,
+  "exports": {
+    ".": {
+      "browser": {
+        "import": "./dist/http.mjs",
+        "require": "./dist/http.cjs"
+      },
+      "node": {
+        "import": "./dist/http.mjs",
+        "require": "./dist/http.cjs"
+      },
+      "import": "./dist/http.mjs",
+      "require": "./dist/http.cjs",
+      "default": "./dist/http.js"
+    }
+  },
+  "files": [
+    "dist/http.cjs",
+    "dist/http.cjs.map",
+    "dist/http.d.ts",
+    "dist/http.js",
+    "dist/http.js.map",
+    "dist/http.mjs",
+    "dist/http.mjs.map"
+  ],
+  "homepage": "https://github.com/corefunc/http",
+  "keywords": [],
+  "license": "MIT",
+  "main": "./dist/http.cjs",
+  "module": "./dist/http.mjs",
+  "name": "@corefunc/http",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/corefunc/http.git"
+  },
+  "scripts": {
+    "build": "rollup --config rollup.config.mjs",
+    "build:watch": "rollup --config rollup.config.mjs --watch",
+    "lint": "eslint ./src/**/*.mjs",
+    "lint:md": "remark .",
+    "package:upgrade": "npm-check --update",
+    "test": "jest",
+    "test:coverage": "jest --collect-coverage"
+  },
+  "type": "module",
+  "types": "./dist/http.d.ts",
+  "version": "0.0.1"
+}
