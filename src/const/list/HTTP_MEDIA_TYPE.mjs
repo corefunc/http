@@ -1,25 +1,50 @@
-const CHARSET_UTF_8 = ";charset=UTF-8";
+// const CHARSET_UTF_8 = ";charset=UTF-8";
 
+/**
+ * @param {string} type
+ * @param {string} subType
+ * @returns {string}
+ */
 function constant(type, subType) {
   return `${type}/${subType}`;
 }
 
+/**
+ * @param {string} subType
+ * @returns {string}
+ */
 function text(subType) {
   return constant("text", subType);
 }
 
+/**
+ * @param {string} subType
+ * @returns {string}
+ */
 function image(subType) {
   return constant("image", subType);
 }
 
+/**
+ * @param {string} subType
+ * @returns {string}
+ */
 function audio(subType) {
   return constant("audio", subType);
 }
 
+/**
+ * @param {string} subType
+ * @returns {string}
+ */
 function video(subType) {
   return constant("video", subType);
 }
 
+/**
+ * @param {string} subType
+ * @returns {string}
+ */
 function application(subType) {
   return constant("application", subType);
 }
