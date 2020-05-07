@@ -51,7 +51,21 @@
     "dist/http.mjs.map"
   ],
   "homepage": "https://github.com/corefunc/http",
-  "keywords": [],
+  "keywords": [
+    "http",
+    "http-utils",
+    "http-utilities",
+    "httpclient",
+    "httpmethods",
+    "httpheaders",
+    "httpstatus",
+    "headers",
+    "rest",
+    "response",
+    "server-response",
+    "http-request",
+    "http-requests"
+  ],
   "license": "MIT",
   "main": "./dist/http.cjs",
   "module": "./dist/http.mjs",
