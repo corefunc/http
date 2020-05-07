@@ -1,0 +1,15 @@
+export declare const HTTP_HEADER: object;
+export declare const HTTP_MEDIA_TYPE: object;
+export declare const HTTP_METHOD: object;
+export declare const STATUS_CODE_EMPTY: number[];
+export declare const STATUS_CODE_REDIRECT: number[];
+export declare const STATUS_CODE_RETRY: number[];
+export declare const STATUS_CODE_TAG: object;
+export declare const STATUS_CODE_TEXT: object;
+export function httpResponse(code: number | string, message?: string | object): object;
+export function httpResponseHtml(code: number | string, message?: string | object): string;
+export function httpResponseJson(code: number | string, message?: string | object): string;
+export function httpResponseText(code: number | string, message?: string | object): string;
+export function httpResponseXml(code: number | string, message?: string | object): string;
+export function httpStatusCode(code: number | string): number;
+export function httpStatusText(code: number | string): string;
