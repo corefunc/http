@@ -85,21 +85,23 @@ httpResponseJson(500, { errorForDeveloper: "", errorForUser: "" });
 
 ## API
 
--  HTTP_HEADER: { [key: string]: string }
--  HTTP_MEDIA_TYPE: { [key: string]: string }
--  HTTP_METHOD: { [key: string]: string }
--  STATUS_CODE_EMPTY: number[]
--  STATUS_CODE_REDIRECT: number[]
--  STATUS_CODE_RETRY: number[]
--  STATUS_CODE_TAG: { [key: string]: number }
--  STATUS_CODE_TEXT: { [key: string]: string }
--  httpResponse(code: number | string, message?: string | object): { [key: string]: any; }
--  httpResponseHtml(code: number | string, message?: string | object): string;
--  httpResponseJson(code: number | string, message?: string | object): string;
--  httpResponseText(code: number | string, message?: string | object): string;
--  httpResponseXml(code: number | string, message?: string | object): string;
--  httpStatusCode(code: number | string): number;
--  httpStatusText(code: number | string): string;
+```typescript
+const HTTP_HEADER: { [key: string]: string };
+const HTTP_MEDIA_TYPE: { [key: string]: string };
+const HTTP_METHOD: { [key: string]: string };
+const STATUS_CODE_EMPTY: number[];
+const STATUS_CODE_REDIRECT: number[];
+const STATUS_CODE_RETRY: number[];
+const STATUS_CODE_TAG: { [key: string]: number };
+const STATUS_CODE_TEXT: { [key: string]: string };
+function httpResponse(code: number | string, message?: string | object): { [key: string]: any; };
+function httpResponseHtml(code: number | string, message?: string | object): string;
+function httpResponseJson(code: number | string, message?: string | object): string;
+function httpResponseText(code: number | string, message?: string | object): string;
+function httpResponseXml(code: number | string, message?: string | object): string;
+function httpStatusCode(code: number | string): number;
+function httpStatusText(code: number | string): string;
+```
 
 ---
 
