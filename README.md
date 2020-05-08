@@ -16,7 +16,7 @@ Utilities and tools to help build HTTP requests.
 
 ---
 
-> **Please Note:** This is not a production-ready package! Expect long stretches of zero updates—that does not mean that the module is outdated. This is "Don’t repeat yourself" collection. Yes, it's working fine, but it is not complete neither consistent. The files can move from folder to folder without warning. Everything is a "Work in Progress"!!!
+*If you use this project don't forget to give a ⭐ [star](https://www.npmjs.com/package/@corefunc/http) ⭐ to it on GitHub!*
 
 ---
 
@@ -85,21 +85,21 @@ httpResponseJson(500, { errorForDeveloper: "", errorForUser: "" });
 
 ## API
 
--  HTTP_HEADER
--  HTTP_MEDIA_TYPE
--  HTTP_METHOD
--  STATUS_CODE_EMPTY
--  STATUS_CODE_REDIRECT
--  STATUS_CODE_RETRY
--  STATUS_CODE_TAG
--  STATUS_CODE_TEXT
--  httpResponse()
--  httpResponseHtml()
--  httpResponseJson()
--  httpResponseText()
--  httpResponseXml()
--  httpStatusCode()
--  httpStatusText()
+-  HTTP_HEADER: { [key: string]: string }
+-  HTTP_MEDIA_TYPE: { [key: string]: string }
+-  HTTP_METHOD: { [key: string]: string }
+-  STATUS_CODE_EMPTY: number[]
+-  STATUS_CODE_REDIRECT: number[]
+-  STATUS_CODE_RETRY: number[]
+-  STATUS_CODE_TAG: { [key: string]: number }
+-  STATUS_CODE_TEXT: { [key: string]: string }
+-  httpResponse(code: number | string, message?: string | object): { [key: string]: any; }
+-  httpResponseHtml(code: number | string, message?: string | object): string;
+-  httpResponseJson(code: number | string, message?: string | object): string;
+-  httpResponseText(code: number | string, message?: string | object): string;
+-  httpResponseXml(code: number | string, message?: string | object): string;
+-  httpStatusCode(code: number | string): number;
+-  httpStatusText(code: number | string): string;
 
 ---
 

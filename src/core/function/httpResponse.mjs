@@ -1,3 +1,4 @@
+import { httpStatusCode } from "./httpStatusCode.mjs";
 import { httpStatusText } from "./httpStatusText.mjs";
 
 /**
@@ -13,7 +14,7 @@ import { httpStatusText } from "./httpStatusText.mjs";
  * @returns {{message: string, statusCode: number}}
  */
 export function httpResponse(code, message) {
-  const theCode = Number.parseInt(Array.isArray(code) ? code[0] : code, 10);
+  const theCode = httpStatusCode(code);
   let theMessage = httpStatusText(theCode);
   if (typeof message === "string") {
     theMessage = message;

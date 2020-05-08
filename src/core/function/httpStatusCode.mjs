@@ -7,5 +7,5 @@
  * @returns {number}
  */
 export function httpStatusCode(code) {
-  return Number.parseInt(Array.isArray(code) ? `${code[0]}` : `${code}`);
+  return Number.parseInt(Array.isArray(code) ? `${code[0]}` : `${code}`, 10);
 }
