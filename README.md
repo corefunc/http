@@ -87,20 +87,32 @@ httpResponseJson(500, { errorForDeveloper: "", errorForUser: "" });
 
 ```typescript
 const HTTP_HEADER: { [key: string]: string };
+// HTTP_HEADER.CONTENT_LENGTH -> "Content-Length"
 const HTTP_MEDIA_TYPE: { [key: string]: string };
+// HTTP_MEDIA_TYPE.IMAGE_WEBP -> "image/webp"
 const HTTP_METHOD: { [key: string]: string };
+// HTTP_METHOD.POST -> "POST"
 const STATUS_CODE_EMPTY: number[];
+// [ 204, 205, 304 ]
 const STATUS_CODE_REDIRECT: number[];
+// [300, 301, 302, 303, 305, 307, 308]
 const STATUS_CODE_RETRY: number[];
+// [502, 503, 504]
 const STATUS_CODE_TAG: { [key: string]: number };
+// STATUS_CODE_TAG.FORBIDDEN -> 403
 const STATUS_CODE_TEXT: { [key: string]: string };
+// STATUS_CODE_TEXT["202"] -> "Accepted"
 function httpResponse(code: number | string, message?: string | object): { [key: string]: any; };
+// httpResponse(202) -> { message: 'Accepted', statusCode: 202 }
 function httpResponseHtml(code: number | string, message?: string | object): string;
 function httpResponseJson(code: number | string, message?: string | object): string;
+// httpResponseJson(202) -> {"message":"Accepted","statusCode":202}
 function httpResponseText(code: number | string, message?: string | object): string;
 function httpResponseXml(code: number | string, message?: string | object): string;
 function httpStatusCode(code: number | string): number;
+// httpStatusCode("404") -> 404
 function httpStatusText(code: number | string): string;
+// httpStatusText(404) -> "Not Found"
 ```
 
 ---
