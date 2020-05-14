@@ -86,6 +86,10 @@ httpResponseJson(500, { errorForDeveloper: "", errorForUser: "" });
 ## API
 
 ```typescript
+import { OK /* 200 */, CREATED /* 201 */ } from "@corefunc/http";
+```
+
+```typescript
 const HTTP_HEADER: { [key: string]: string };
 // HTTP_HEADER.CONTENT_LENGTH -> "Content-Length"
 const HTTP_MEDIA_TYPE: { [key: string]: string };
