@@ -85,4 +85,4 @@ export { httpResponseText } from "./core/function/httpResponseText.mjs";
 export { httpResponseXml } from "./core/function/httpResponseXml.mjs";
 export { httpStatusCode } from "./core/function/httpStatusCode.mjs";
 export { httpStatusText } from "./core/function/httpStatusText.mjs";
-export { Headers } from "./core/class/Headers.mjs";
+export { Header, Headers } from "./core/class/Headers.mjs";
