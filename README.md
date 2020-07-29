@@ -1,4 +1,4 @@
-![CoreFunc](.github/img/logo_128.png?raw=true "CoreFunc")
+![CoreFunc](.github/assets/banner.webp?raw=true "CoreFunc")
 
 # CoreFunc HTTP
 
