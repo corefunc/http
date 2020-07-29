@@ -790,6 +790,80 @@ export declare const STATUS_CODE_TAG: {
   NETWORK_AUTHENTICATION_REQUIRED: number;
 };
 /**
+ * @description Status code text
+ * @readonly
+ * @type {{REQUEST_TIMEOUT: string, INSUFFICIENT_SPACE_ON_RESOURCE: string, USE_PROXY: string, UNPROCESSABLE_ENTITY: string, PROCESSING: string, TEMPORARY_REDIRECT: string, NOT_EXTENDED: string, MOVED_TEMPORARILY: string, PAYLOAD_TOO_LARGE: string, VARIANT_ALSO_NEGOTIATES: string, FAILED_DEPENDENCY: string, ACCEPTED: string, BAD_GATEWAY: string, IM_USED: string, NOT_ACCEPTABLE: string, RESET_CONTENT: string, PARTIAL_CONTENT: string, GATEWAY_TIMEOUT: string, WOULD_BLOCK: string, METHOD_NOT_ALLOWED: string, EXPECTATION_FAILED: string, LOCKED: string, UNUSED: string, NOT_FOUND: string, PERMANENT_REDIRECT: string, IM_A_TEAPOT: string, LENGTH_REQUIRED: string, BANDWIDTH_LIMIT_EXCEEDED: string, MULTIPLE_CHOICES: string, NETWORK_AUTHENTICATION_REQUIRED: string, SWITCHING_PROTOCOLS: string, GONE: string, UPGRADE_REQUIRED: string, UNAVAILABLE_FOR_LEGAL_REASONS: string, TOO_MANY_REQUESTS: string, INTERNAL_SERVER_ERROR: string, CONFLICT: string, INSUFFICIENT_STORAGE: string, HTTP_VERSION_NOT_SUPPORTED: string, UNSUPPORTED_MEDIA_TYPE: string, NO_CONTENT: string, PROXY_AUTHENTICATION_REQUIRED: string, REQUEST_HEADER_FIELDS_TOO_LARGE: string, PAYMENT_REQUIRED: string, CREATED: string, MOVED_PERMANENTLY: string, UNAUTHORIZED: string, REQUEST_URI_TOO_LONG: string, OK: string, REQUESTED_RANGE_NOT_SATISFIABLE: string, BAD_REQUEST: string, ENHANCE_YOUR_CALM: string, MISDIRECTED_REQUEST: string, SEE_OTHER: string, FORBIDDEN: string, CONTINUE: string, PRECONDITION_REQUIRED: string, NOT_MODIFIED: string, NOT_IMPLEMENTED: string, ALREADY_REPORTED: string, NON_AUTHORITATIVE_INFORMATION: string, PRECONDITION_FAILED: string, LOOP_DETECTED: string, SERVICE_UNAVAILABLE: string, TOO_EARLY: string, EARLY_HINTS: string, MULTI_STATUS: string}}
+ */
+export declare const STATUS_CODE_MEMO: {
+  CONTINUE: string;
+  SWITCHING_PROTOCOLS: string;
+  PROCESSING: string;
+  EARLY_HINTS: string;
+  OK: string;
+  CREATED: string;
+  ACCEPTED: string;
+  NON_AUTHORITATIVE_INFORMATION: string;
+  NO_CONTENT: string;
+  RESET_CONTENT: string;
+  PARTIAL_CONTENT: string;
+  MULTI_STATUS: string;
+  ALREADY_REPORTED: string;
+  IM_USED: string;
+  MULTIPLE_CHOICES: string;
+  MOVED_PERMANENTLY: string;
+  MOVED_TEMPORARILY: string;
+  SEE_OTHER: string;
+  NOT_MODIFIED: string;
+  USE_PROXY: string;
+  UNUSED: string;
+  TEMPORARY_REDIRECT: string;
+  PERMANENT_REDIRECT: string;
+  BAD_REQUEST: string;
+  UNAUTHORIZED: string;
+  PAYMENT_REQUIRED: string;
+  FORBIDDEN: string;
+  NOT_FOUND: string;
+  METHOD_NOT_ALLOWED: string;
+  NOT_ACCEPTABLE: string;
+  PROXY_AUTHENTICATION_REQUIRED: string;
+  REQUEST_TIMEOUT: string;
+  CONFLICT: string;
+  GONE: string;
+  LENGTH_REQUIRED: string;
+  PRECONDITION_FAILED: string;
+  PAYLOAD_TOO_LARGE: string;
+  REQUEST_URI_TOO_LONG: string;
+  UNSUPPORTED_MEDIA_TYPE: string;
+  REQUESTED_RANGE_NOT_SATISFIABLE: string;
+  EXPECTATION_FAILED: string;
+  IM_A_TEAPOT: string;
+  INSUFFICIENT_SPACE_ON_RESOURCE: string;
+  ENHANCE_YOUR_CALM: string;
+  MISDIRECTED_REQUEST: string;
+  UNPROCESSABLE_ENTITY: string;
+  LOCKED: string;
+  FAILED_DEPENDENCY: string;
+  TOO_EARLY: string;
+  UPGRADE_REQUIRED: string;
+  PRECONDITION_REQUIRED: string;
+  TOO_MANY_REQUESTS: string;
+  WOULD_BLOCK: string;
+  REQUEST_HEADER_FIELDS_TOO_LARGE: string;
+  UNAVAILABLE_FOR_LEGAL_REASONS: string;
+  INTERNAL_SERVER_ERROR: string;
+  NOT_IMPLEMENTED: string;
+  BAD_GATEWAY: string;
+  SERVICE_UNAVAILABLE: string;
+  GATEWAY_TIMEOUT: string;
+  HTTP_VERSION_NOT_SUPPORTED: string;
+  VARIANT_ALSO_NEGOTIATES: string;
+  INSUFFICIENT_STORAGE: string;
+  LOOP_DETECTED: string;
+  BANDWIDTH_LIMIT_EXCEEDED: string;
+  NOT_EXTENDED: string;
+  NETWORK_AUTHENTICATION_REQUIRED: string;
+};
+/**
  * @description Status code texts
  * @readonly
  * @type {{"430": string, "431": string, "510": string, "511": string, "200": string, "201": string, "202": string, "400": string, "203": string, "401": string, "204": string, "402": string, "205": string, "403": string, "206": string, "404": string, "207": string, "405": string, "208": string, "406": string, "407": string, "408": string, "409": string, "451": string, "410": string, "411": string, "412": string, "413": string, "414": string, "415": string, "416": string, "417": string, "418": string, "419": string, "100": string, "101": string, "420": string, "102": string, "300": string, "421": string, "103": string, "301": string, "422": string, "302": string, "423": string, "500": string, "226": string, "303": string, "424": string, "501": string, "304": string, "425": string, "502": string, "305": string, "426": string, "503": string, "306": string, "504": string, "307": string, "428": string, "505": string, "308": string, "429": string, "506": string, "507": string, "508": string, "509": string}}

@@ -73,6 +73,7 @@ export {
 export { HTTP_HEADER } from "./const/list/HTTP_HEADER.mjs";
 export { HTTP_MEDIA_TYPE } from "./const/list/HTTP_MEDIA_TYPE.mjs";
 export { HTTP_METHOD } from "./const/list/HTTP_METHOD.mjs";
+export { STATUS_CODE_MEMO } from "./const/list/STATUS_CODE_MEMO.mjs";
 export { STATUS_CODE_TAG } from "./const/list/STATUS_CODE_TAG.mjs";
 export { STATUS_CODE_TEXT } from "./const/list/STATUS_CODE_TEXT.mjs";
 export { STATUS_CODE_EMPTY } from "./const/list/STATUS_CODE_EMPTY.mjs";

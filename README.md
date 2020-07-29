@@ -102,6 +102,8 @@ const STATUS_CODE_REDIRECT: number[];
 // [300, 301, 302, 303, 305, 307, 308]
 const STATUS_CODE_RETRY: number[];
 // [502, 503, 504]
+const STATUS_CODE_MEMO: { [key: string]: string };
+// STATUS_CODE_MEMO.ACCEPTED -> "Accepted"
 const STATUS_CODE_TAG: { [key: string]: number };
 // STATUS_CODE_TAG.FORBIDDEN -> 403
 const STATUS_CODE_TEXT: { [key: string]: string };
