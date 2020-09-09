@@ -89,5 +89,5 @@
   },
   "type": "module",
   "types": "./dist/http.d.ts",
-  "version": "1.0.5"
+  "version": "1.0.6"
 }
