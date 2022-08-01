@@ -171,6 +171,7 @@ export const LOCKED = 423;
  * {@link https://tools.ietf.org/html/rfc2518#section-10.5}
  * @description The request failed due to failure of a previous request.
  * @type {number}
+ * @see {@link https://stackoverflow.com/questions/7088414/what-http-error-code-for-failure-to-create-a-new-resource-because-a-parent-entit}
  */
 export const FAILED_DEPENDENCY = 424;
 /**

@@ -4,9 +4,6 @@
 
 Utilities and tools to help build HTTP requests.
 
-[![Buy Me A Coffee][buymeacoffee-img]][buymeacoffee-url]
-[![Follow New Releases][releasly-img]][releasly-url]
-
 [![NPM Version][npm-version-img]][npm-version-url]
 [![NPM Downloads][npm-downloads-img]][npm-downloads-url]
 [![GitHub Stars][gh-stars-img]][gh-stars-url]
@@ -16,23 +13,7 @@ Utilities and tools to help build HTTP requests.
 
 ---
 
-*If you use this project don't forget to give a ⭐ [star](https://www.npmjs.com/package/@corefunc/http) ⭐ to it on GitHub!*
-
----
-
 ## Usage
-
-CommonJS import.
-
-```javascript
-const {
-  HTTP_HEADER,
-  STATUS_CODE_EMPTY, STATUS_CODE_TEXT,
-  httpResponseJson, httpStatusText,
-} = require("@corefunc/http");
-```
-
-ECMAScript Module.
 
 ```javascript
 import {
